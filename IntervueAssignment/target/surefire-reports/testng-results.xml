@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-11T21:46:49 IST" name="InterVue Test Suite" finished-at="2025-04-11T21:47:38 IST" duration-ms="49896">
+    <groups>
+    </groups>
+    <test started-at="2025-04-11T21:46:49 IST" name="ValidLogin" finished-at="2025-04-11T21:47:10 IST" duration-ms="21403">
+      <class name="IntervueTests.Lekha_Assignment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:46:49 IST" name="setUp" finished-at="2025-04-11T21:46:54 IST" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:1, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:46:54 IST" name="testLogin" finished-at="2025-04-11T21:46:58 IST" duration-ms="4920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neha@intervue.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ps@neha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="validateTest(org.testng.ITestResult)[pri:0, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:46:58 IST" name="validateTest" finished-at="2025-04-11T21:46:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Lekha_Assignment.testLogin(java.lang.String,java.lang.String)[pri:1, instance:IntervueTests.Lekha_Assignment@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTest -->
+        <test-method signature="search()[pri:2, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:46:58 IST" name="search" finished-at="2025-04-11T21:47:05 IST" depends-on-methods="IntervueTests.Lekha_Assignment.testLogin" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="validateTest(org.testng.ITestResult)[pri:0, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:47:05 IST" name="validateTest" finished-at="2025-04-11T21:47:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=Lekha_Assignment.search()[pri:2, instance:IntervueTests.Lekha_Assignment@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTest -->
+        <test-method signature="logoutUser()[pri:3, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:47:05 IST" name="logoutUser" finished-at="2025-04-11T21:47:10 IST" depends-on-methods="IntervueTests.Lekha_Assignment.testLogin" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="validateTest(org.testng.ITestResult)[pri:0, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:47:10 IST" name="validateTest" finished-at="2025-04-11T21:47:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutUser status=SUCCESS method=Lekha_Assignment.logoutUser()[pri:3, instance:IntervueTests.Lekha_Assignment@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntervueTests.Lekha_Assignment@5af3afd9]" started-at="2025-04-11T21:47:10 IST" name="tearDown" finished-at="2025-04-11T21:47:10 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- IntervueTests.Lekha_Assignment -->
+    </test> <!-- ValidLogin -->
+    <test started-at="2025-04-11T21:47:15 IST" name="InvalidLogin" finished-at="2025-04-11T21:47:38 IST" duration-ms="23450">
+      <class name="IntervueTests.Lekha_Assignment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:15 IST" name="setUp" finished-at="2025-04-11T21:47:21 IST" duration-ms="5697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:1, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:21 IST" name="testLogin" finished-at="2025-04-11T21:47:38 IST" duration-ms="17351" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to contain "dashboard". Current url: "https://www.intervue.io/login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/gy/brr6jgdj38x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58584}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58584/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 924bee6d47b3173de4dde497d50d3e0b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "dashboard". Current url: "https://www.intervue.io/login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.4', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/gy/brr6jgdj38x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58584}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58584/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 924bee6d47b3173de4dde497d50d3e0b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at IntervueTests.Lekha_Assignment.testLogin(Lekha_Assignment.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="validateTest(org.testng.ITestResult)[pri:0, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:38 IST" name="validateTest" finished-at="2025-04-11T21:47:38 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=Lekha_Assignment.testLogin(java.lang.String,java.lang.String)[pri:1, instance:IntervueTests.Lekha_Assignment@35e2d654] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTest -->
+        <test-method signature="search()[pri:2, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:38 IST" name="search" finished-at="2025-04-11T21:47:38 IST" depends-on-methods="IntervueTests.Lekha_Assignment.testLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IntervueTests.Lekha_Assignment.search() on instance IntervueTests.Lekha_Assignment@35e2d654 depends on not successfully finished methods 
+[IntervueTests.Lekha_Assignment.testLogin() on instance IntervueTests.Lekha_Assignment@35e2d654]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IntervueTests.Lekha_Assignment.search() on instance IntervueTests.Lekha_Assignment@35e2d654 depends on not successfully finished methods 
+[IntervueTests.Lekha_Assignment.testLogin() on instance IntervueTests.Lekha_Assignment@35e2d654]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="logoutUser()[pri:3, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:38 IST" name="logoutUser" finished-at="2025-04-11T21:47:38 IST" depends-on-methods="IntervueTests.Lekha_Assignment.testLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IntervueTests.Lekha_Assignment.logoutUser() on instance IntervueTests.Lekha_Assignment@35e2d654 depends on not successfully finished methods 
+[IntervueTests.Lekha_Assignment.testLogin() on instance IntervueTests.Lekha_Assignment@35e2d654]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IntervueTests.Lekha_Assignment.logoutUser() on instance IntervueTests.Lekha_Assignment@35e2d654 depends on not successfully finished methods 
+[IntervueTests.Lekha_Assignment.testLogin() on instance IntervueTests.Lekha_Assignment@35e2d654]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:IntervueTests.Lekha_Assignment@35e2d654]" started-at="2025-04-11T21:47:38 IST" name="tearDown" finished-at="2025-04-11T21:47:38 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- IntervueTests.Lekha_Assignment -->
+    </test> <!-- InvalidLogin -->
+  </suite> <!-- InterVue Test Suite -->
+</testng-results>

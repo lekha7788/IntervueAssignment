@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InterVue Test Suite">
+  
+  <test name="ValidLogin">
+        <parameter name="username" value="neha@intervue.io"/>
+        <parameter name="password" value="Ps@neha@123"/>
+        <classes>
+            <class name="IntervueTests.Lekha_Assignment"/>
+        </classes>
+    </test>
+
+    <test name="InvalidLogin">
+        <parameter name="username" value="user2@example.com"/>
+        <parameter name="password" value="wrongpass"/>
+        <classes>
+            <class name="IntervueTests.Lekha_Assignment"/>
+        </classes>
+    </test>
+</suite>
